@@ -12,12 +12,12 @@ libp2p-core = { path = "../../core" }
 log = "0.4.1"
 protobuf = "2.0.2"
 rand = "0.3.17"
-ring = { version = "0.12", features = ["rsa_signing"] }
+ring = { version = "0.13", features = ["rsa_signing"] }
 rust-crypto = "^0.2"
 rw-stream-sink = { path = "../../misc/rw-stream-sink" }
 eth-secp256k1 = { git = "https://github.com/paritytech/rust-secp256k1", optional = true }
 tokio-io = "0.1.0"
-untrusted = "0.5"
+untrusted = "0.6"
 
 [features]
 default = ["secp256k1"]
